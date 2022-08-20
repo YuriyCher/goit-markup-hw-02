@@ -1,6 +1,6 @@
 :root
 {
-    --accent-color: #2196F3
+    --accent-color: #2196F3;
     
 
 }
@@ -14,35 +14,63 @@ l{
     text-decoration: none;
 }
 
- .list{
-    list-style: none;
-}
-
+ .list,
+  {list-style: none;}
+  .list-port
+  {list-style: none;}
 img
  {
     display: block;
 }
-.title-main{ 
-    font-family: 'Roboto';
+
+
+.logo { 
+    font-family:Raleway, sans-serif;
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19
+    letter-spacing 0,03em;
+    
+    color: var(--accent-color);
+    }
+    .accent-logo {font-family:Raleway, sans-serif;
+    
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1,19
+        letter-spacing 0,03em;
+        
+    color: #000000;}
+
+
+
+
+
+
+
+
+
+
+.body,
+.h1,h2,h3,h4 
+{
+    font-family: Roboto, sans-serif;
+ }
+.title-main { 
+    font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
-   
-    
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
     --accent-color: #2196F3;
     
     /* or color: #FFFFFF;*/
-
 }
 
-body 
-{
-    font-family: Roboto, sans-serif;
- }
- button { cursor: pointer;}
+ .button { cursor: pointer;}
 
 .menu-link { 
     font-family:Roboto, Raleway, sans-serif;
@@ -52,16 +80,16 @@ line-height: 1,14;
 letter-spacing: 0.02em;
 color:var(--accent-color);
 }
- .menu-link:hover
+ 
 
  .modal-open-btn
 
  {
-    
+    font-family: Roboto, sans-serif;  
     font-weight: 700;
 font-size: 16px;
 line-height: 1,17;
-color: var(--accent-color);background: var(--accent-color);
+color: #FFFFFF; background: #2196F3;
   }
   .modal-open-btn:hover,
   .modal-open-btn:focus{  
@@ -85,19 +113,17 @@ color: var(--accent-color);background: var(--accent-color);
   color:var(--accent-color);
   }
 
- .logo
- 
-  { 
-font-family:Raleway, sans-serif;
-
-font-weight: 700;
-font-size: 26px;
-line-height: 1,19
-letter-spacing 0,03em;
-
-color: var(--accent-color);
-}
-
     .blak {color: #000000}
 
+     
+     
+    .fut-list {font-family: Roboto, sans-serif;
+
+        font-style: normal;   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+    color: #212121;}
+    /*color: #FFFFFF; background: #2F303A
      
