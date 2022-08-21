@@ -1,21 +1,20 @@
 :root
 {
-    --accent-color: #2196F3;
+    --accent-color:  #000000;
     
 
 }
 
 .link
-
-l{
+{
     text-decoration: none;
 }
- .link-port{
+ .link-port {
     text-decoration: none;
 }
 
- .list,
-  {list-style: none;}
+ .list
+{list-style:none;}
   .list-port
   {list-style: none;}
 img
@@ -41,7 +40,8 @@ img
         line-height: 1,19
         letter-spacing 0,03em;
         
-    color: #000000;}
+    color:   #2196F3;}
+
 
 
 
@@ -92,7 +92,7 @@ line-height: 1,17;
 color: #FFFFFF; background: #2196F3;
   }
   .modal-open-btn:hover,
-  .modal-open-btn:focus{  
+  .modal-open-btn:focus {  
 
   background: var(--accent-color);
 }
@@ -106,14 +106,14 @@ color: #FFFFFF; background: #2196F3;
   line-height: 1,14;
   letter-spacing: 0.02em;
   
-  color: var(--accent-color); 
+  color: #2196F3;
   }
   .contakt-email:hover,
-  .contakt-email:focus{ 
-  color:var(--accent-color);
+  .contakt-email:focus { 
+    color: #2196F3;
   }
 
-    .blak {color: #000000}
+    blak {color: #000000}
 
      
      
