@@ -1,10 +1,13 @@
 :root
 {
     --accent-color:  #000000;
+    --primary-font:Roboto,sans-serif;
+    --secondary-font:Raleway, sans-serif;
+    --primary-text-color-theme-dark: #212121;
+    --secondary-text-color-theme-light: #2196F3;
+    --primary-text-color-theme-dark: #FFFFFF;
     
-
 }
-
 .link
 {
     text-decoration: none;
@@ -17,7 +20,7 @@
 {list-style:none;}
   .list-port
   {list-style: none;}
-img
+.img
  {
     display: block;
 }
@@ -41,15 +44,6 @@ img
         letter-spacing 0,03em;
         
     color:   #2196F3;}
-
-
-
-
-
-
-
-
-
 
 
 .body,
